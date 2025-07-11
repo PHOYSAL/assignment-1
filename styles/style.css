@@ -25,6 +25,9 @@ header{
     padding: 12px 30px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: #5e5d75;
+}
 .banner,main{
     max-width: 1440px;
     margin: 0 auto;
@@ -56,6 +59,7 @@ nav h1{
     justify-content: center;
     text-align: center;
     margin-top: 120px;
+    line-height: 70px;
 }
 .hero h1{
     font-size: 60px;
@@ -113,4 +117,37 @@ nav h1{
 .user-info p{
     color: #00000080;
     font-size: 20px;
+}
+
+/* review section style  */
+.review h3{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.review-content{
+    line-height: 30px;
+    /* border: 1px solid gray; */
+    border-radius: 14px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    background-color: #FFFFFF80;
+}
+.review-content h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+.review-content p{
+    font-size: 16px;
+}
+.reviewer{
+    display: flex;
+    gap: 10px;
 }
